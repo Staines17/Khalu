@@ -6,9 +6,39 @@ body{
 h1{
   color: #EA047E;
   font-size: 500%;
+  font-family: cursive;
 }
 
 h4{
   color: #7743DB;
   font-size: 250%;
+  font-family: cursive;
+}
+
+.btn {
+  background: #2192FF;
+  background-image: -webkit-linear-gradient(top, #2192FF, #00F5FF);
+  background-image: -moz-linear-gradient(top, #2192FF, #00F5FF);
+  background-image: -ms-linear-gradient(top, #2192FF, #00F5FF);
+  background-image: -o-linear-gradient(top, #2192FF, #00F5FF);
+  background-image: linear-gradient(to bottom, #2192FF, #00F5FF);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ff6d28;
+  background-image: -webkit-linear-gradient(top, #ff6d28, #fce700);
+  background-image: -moz-linear-gradient(top, #ff6d28, #fce700);
+  background-image: -ms-linear-gradient(top, #ff6d28, #fce700);
+  background-image: -o-linear-gradient(top, #ff6d28, #fce700);
+  background-image: linear-gradient(to bottom, #ff6d28, #fce700);
+  text-decoration: none;
 }
