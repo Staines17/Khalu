@@ -4,6 +4,26 @@ body{
   width: 100vw;
 }
 
+h1{
+  color: #FFFFFF;
+  font-size: 500%;
+  margin-top: 0px;
+}
+
+h3{
+  color: #FFFAD7;
+  font-size: 300%;
+}
+
+h4{
+  color: #B3FFAE;
+  font-size: 250%;
+}
+
+.fb{
+  color: #EC7272;
+}
+
 #lock{ display:none; }
    @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
  #lock{ display:block; }
