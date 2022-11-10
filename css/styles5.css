@@ -4,6 +4,18 @@ body{
   width: 100vw;
 }
 
+h1{
+  color: #FF6464;
+  font-size: 500%;
+  margin-bottom: 100px;
+  font-family: cursive;
+}
+
+p{
+  color: #FF8DC7;
+  font-size: 200%;
+}
+
 #lock{ display:none; }
    @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
  #lock{ display:block; }
