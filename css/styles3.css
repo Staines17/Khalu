@@ -5,8 +5,24 @@ body{
 }
 
 h1{
-  color: #16213E;
   font-size: 300%;
+}
+
+h3{
+  color: #1E5128;
+  font-size: 200%;
+}
+
+.mp{
+  color: #16213E;
+  text-decoration: none;
+}
+
+.fake{
+  font-size: 150%;
+  position: absolute;
+  top: 45%;
+  right: 47%;
 }
 
 #lock{ display:none; }
