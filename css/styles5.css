@@ -1,28 +1,3 @@
-body{
-  background-image: url(images/bg3.jpg);
-  background-size: cover;
-  width: 100vw;
-}
-
-h1{
-  font-size: 300%;
-}
-
-h3{
-  color: #1E5128;
-  font-size: 200%;
-}
-
-.mp{
-  color: #16213E;
-  text-decoration: none;
-}
-
-.fake{
-  font-size: 150%;
-  position: absolute;
-}
-
 #lock{ display:none; }
    @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
  #lock{ display:block; }
