@@ -31,3 +31,31 @@ a{
   #lock{ display:none; }
  #container{ display:block; }
 }
+
+.btn {
+  background: #FFCE45;
+  background-image: -webkit-linear-gradient(top, #FFCE45, #D4AC2B);
+  background-image: -moz-linear-gradient(top, #FFCE45, #D4AC2B);
+  background-image: -ms-linear-gradient(top, #FFCE45, #D4AC2B);
+  background-image: -o-linear-gradient(top, #FFCE45, #D4AC2B);
+  background-image: linear-gradient(to bottom, #FFCE45, #D4AC2B);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #EA047E;
+  background-image: -webkit-linear-gradient(top, #EA047E, #FCE700);
+  background-image: -moz-linear-gradient(top, #EA047E, #FCE700);
+  background-image: -ms-linear-gradient(top, #EA047E, #FCE700);
+  background-image: -o-linear-gradient(top, #EA047E, #FCE700);
+  background-image: linear-gradient(to bottom, #EA047E, #FCE700);
+  text-decoration: none;
+}
