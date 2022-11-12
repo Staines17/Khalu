@@ -9,18 +9,17 @@ h1{
 }
 
 h3{
-  color: #1E5128;
+  color: #0008C1;
   font-size: 200%;
 }
 
-.mp{
+.video{
   color: #16213E;
   text-decoration: none;
 }
 
-.fake{
+.btn{
   font-size: 150%;
-  position: absolute;
 }
 
 #lock{ display:none; }
@@ -31,4 +30,32 @@ h3{
 @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
   #lock{ display:none; }
  #container{ display:block; }
+}
+
+.btn {
+  background: #F9F9F9;
+  background-image: -webkit-linear-gradient(top, #F9F9F9, #EA047E);
+  background-image: -moz-linear-gradient(top, #F9F9F9, #EA047E);
+  background-image: -ms-linear-gradient(top, #F9F9F9, #EA047E);
+  background-image: -o-linear-gradient(top, #F9F9F9, #EA047E);
+  background-image: linear-gradient(to bottom, #F9F9F9, #EA047E);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ff6d28;
+  background-image: -webkit-linear-gradient(top, #ff6d28, #fce700);
+  background-image: -moz-linear-gradient(top, #ff6d28, #fce700);
+  background-image: -ms-linear-gradient(top, #ff6d28, #fce700);
+  background-image: -o-linear-gradient(top, #ff6d28, #fce700);
+  background-image: linear-gradient(to bottom, #ff6d28, #fce700);
+  text-decoration: none;
 }
