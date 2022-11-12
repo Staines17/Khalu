@@ -42,7 +42,7 @@ const checkWord = () => {
   let userWord = inputField.value.toLowerCase();
   if (!userWord) return alert("Enter the word to check you idiot!");
   if (userWord !== correctWord) return (window.location.href = "quiz4.html");
-  window.location.href = "quiz2.html";
+  window.location.href = "video.html";
   initGame();
 };
 refreshBtn.addEventListener("click", initGame);
