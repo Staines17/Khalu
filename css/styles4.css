@@ -26,7 +26,11 @@ h3{
 a{
   color: white;
   text-decoration: none;
-  font-size: 150%;
+  font-size: 200%;
+}
+
+video{
+  width: 50%;
 }
 
 #lock{ display:none; }
